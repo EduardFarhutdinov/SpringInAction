@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="693f5fed-03b7-42b9-a544-9ea9f246eb48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/DesignTacoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/IngredientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/IngredientResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/IngredientResourceAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/OrderApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/RecentTacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/SpringDataRestConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/TacoResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/TacoResourceAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/TacoResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/TacoResourcesProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/IngredientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/TacoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/Taco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/java/tacos/restclient/RestExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/java/tacos/restclient/TacoCloudClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/static/images/TacoCloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/static/images/cloud-taco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/static/mustache/ingredients.mst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/static/mustache/recents.mst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/static/scripts/ingredients.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/static/scripts/recents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/design.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/discountList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/orderForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/orderList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/RegistrationForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/UserRepositoryUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch06/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch06/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch06/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/tacocloud-api/target/" />
+    <ignored path="$PROJECT_DIR$/tacocloud-data/target/" />
+    <ignored path="$PROJECT_DIR$/tacocloud-domain/target/" />
+    <ignored path="$PROJECT_DIR$/tacocloud-restclient/target/" />
+    <ignored path="$PROJECT_DIR$/tacocloud-security/target/" />
+    <ignored path="$PROJECT_DIR$/tacocloud-ui/target/" />
+    <ignored path="$PROJECT_DIR$/tacocloud-web/target/" />
+    <ignored path="$PROJECT_DIR$/taco-cloud/target/" />
+    <ignored path="$PROJECT_DIR$/tacos/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="159774423">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="5" />
+          <entry key="json" value="1" />
+          <entry key="xml" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="5" />
+          <entry key="JSON" value="1" />
+          <entry key="XML" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="xml" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="XML" value="22" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tacocloud-api/pom.xml" />
+        <option value="$PROJECT_DIR$/tacocloud-data/pom.xml" />
+        <option value="$PROJECT_DIR$/tacocloud-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/tacocloud-restclient/pom.xml" />
+        <option value="$PROJECT_DIR$/tacocloud-security/pom.xml" />
+        <option value="$PROJECT_DIR$/../../spring-in-action-5-samples-master/ch07/tacocloud-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/tacocloud-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/tacocloud-web/pom.xml" />
+        <option value="$PROJECT_DIR$/taco-cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tacocloud07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ch07" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Home-PC\Desktop\SPRING\SpringInAction\ch07\tacocloud-ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Home-PC\Desktop\SPRING\SpringInAction\ch07\tacocloud-security\src\main\java" />
+      <recent name="C:\Users\Home-PC\Desktop\SPRING\SpringInAction\ch07\tacocloud-restclient\src\main\resources" />
+      <recent name="C:\Users\Home-PC\Desktop\SPRING\SpringInAction\ch07\tacocloud-restclient\src\main\java" />
+      <recent name="C:\Users\Home-PC\Desktop\SPRING\SpringInAction\ch07\tacocloud-domain\src\main\java" />
+      <recent name="C:\Users\Home-PC\Desktop\SPRING\SpringInAction\ch07\tacocloud-data\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="693f5fed-03b7-42b9-a544-9ea9f246eb48" name="Default Changelist" comment="" />
+      <created>1549638444761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549638444761</updated>
+      <workItem from="1549638454628" duration="1637000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1637000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <layout>
+      <window_info id="Web" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../spring-in-action-5-samples-master/ch07/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="14" selection-start-line="10" selection-start-column="4" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-in-action-5-samples-master/ch07/tacocloud-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="9" selection-start-column="4" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacocloud-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacocloud-data/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-in-action-5-samples-master/ch07/tacocloud-data/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="10" column="46" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacocloud-domain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-in-action-5-samples-master/ch07/tacocloud-domain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="60" column="19" selection-start-line="18" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacocloud-restclient/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-in-action-5-samples-master/ch07/tacocloud-restclient/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="67" column="12" selection-start-line="18" selection-start-column="4" selection-end-line="67" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-in-action-5-samples-master/ch07/tacocloud-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="57" column="19" selection-start-line="18" selection-start-column="4" selection-end-line="57" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacocloud-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacocloud-ui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-in-action-5-samples-master/ch07/tacocloud-ui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="93" column="10" selection-start-line="18" selection-start-column="1" selection-end-line="93" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-in-action-5-samples-master/ch07/tacocloud-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="101" column="19" selection-start-line="17" selection-end-line="101" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacocloud-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacos/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-in-action-5-samples-master/ch07/tacos/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/TacoResource.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/TacoRepository.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/Taco.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacocloud-restclient/src/main/java/tacos/restclient/RestExamples.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacocloud-restclient/src/main/resources/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
