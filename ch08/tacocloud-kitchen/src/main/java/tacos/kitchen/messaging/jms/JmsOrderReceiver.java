@@ -11,15 +11,15 @@ import tacos.kitchen.OrderReceiver;
 @Component("templateOrderReceiver")
 public class JmsOrderReceiver implements OrderReceiver {
 
-  private JmsTemplate jms;
+    private JmsTemplate jms;
 
-  public JmsOrderReceiver(JmsTemplate jms) {
-    this.jms = jms;
-  }
-  
-  @Override
-  public Order receiveOrder() {
-    return (Order) jms.receiveAndConvert("tacocloud.order.queue");
-  }
-  
+    public JmsOrderReceiver(JmsTemplate jms)     {
+        this.jms = jms;
+    }
+
+    @Override
+    public Order receiveOrder() {
+        return (Order) jms.receiveAndConvert("tacocloud.order.queue");
+    }
+
 }
